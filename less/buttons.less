@@ -4,7 +4,7 @@
 	right:50px;
 	top:6px;
 	z-index:999;
-	font-size:30px;
+	font-size:@menu-text-size;
 	a {
 		text-decoration:none;
 	}
@@ -12,27 +12,27 @@
 .btn {
 	&-open {
 		&:after {
-			color:#333;
+			color:@btn-color;
 			content:"\f0c9";
 			font-family:"FontAwesome";
 			.transition(all .2s linear 0s);
 		}
 		&:hover {
 			&:after {
-				color:#34B484;					
+				color:@btn-color-hover;					
 			}
 		}
 	}
 	&-close {
 		&:after {
-			color:#fff;
+			color:@btn-color-overlay;
 			content:"\f00d";
 			font-family:"FontAwesome";
 			.transition(all .2s linear 0s);
 		}
 		&:hover {
 			&:after {
-				color: #34B484;				
+				color: @btn-color-hover-overlay;				
 			}
 		}
 	}

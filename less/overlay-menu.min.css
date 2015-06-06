@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: #ffffff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 12pxrem;
+  font-size: 12px;
 }
 ul {
   margin: 0;
@@ -57,7 +57,7 @@ nav ul li a:hover {
   right: 50px;
   top: 6px;
   z-index: 999;
-  font-size: 30pxrem;
+  font-size: 30px;
 }
 .button a {
   text-decoration: none;
@@ -122,14 +122,14 @@ nav ul li a:hover {
   text-transform: capitalize;
   padding: 150px 0px 100px;
 }
-.wrap ul.wrap-nav li {
+.wrap ul.wrap-nav ul li {
   font-size: 20px;
   display: inline-block;
   vertical-align: top;
   width: 24%;
   position: relative;
 }
-.wrap ul.wrap-nav li a {
+.wrap ul.wrap-nav ul li a {
   color: #34B484;
   display: block;
   padding: 8px 0;
@@ -139,7 +139,7 @@ nav ul li a:hover {
   -o-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
-.wrap ul.wrap-nav li a:hover {
+.wrap ul.wrap-nav ul li a:hover {
   color: #f0f0f0;
 }
 .social {
